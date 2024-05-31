@@ -18,4 +18,22 @@ accountCity = 'Deoria'
 
 console.log(accountId)
 
-console.table([accountEmail , accountPassword , accountCity])
+console.table([accountEmail , accountPassword , accountCity]);
+
+  // data type
+
+  // number => 80845354 2 to power 53
+  // bigint => 
+ //  string => ""
+  // boolean => ture/flase
+  // null => standlon value
+  // undefined =>
+  // symbol => unique
+
+  // object =>
+
+
+ console.log(typeof null) // output object
+
+ console.log(typeof undefined) // output undefined
+
