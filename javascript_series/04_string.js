@@ -19,3 +19,21 @@ const gameName = new String ('Brijesh')
 const newString = gameName.substring(0, 4)
 
 console.log(newString);
+
+const anotherString = gameName.slice( -7, 4)
+console.log(anotherString)
+
+const anotherStringOne = '     brijesh         '
+
+console.log(anotherStringOne)
+console.log(anotherStringOne.trim())
+
+const url ='https://vidursoft.com20%nvudnu'
+console.log(url.replace('20%' , '-'))
+console.log(url.includes('vidursoft'))
+
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+const words = str.split('.');
+console.log(words[3]);
